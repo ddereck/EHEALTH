@@ -1,5 +1,5 @@
 <template>
-    <div class="super-admin-template">
+<div class="super-admin">
       <header>
         <!-- Barre de navigation avec les paramètres utilisateurs -->
         <nav class="user-navigation">
@@ -54,11 +54,7 @@
           <!-- Ajoutez plus de cartes de widget ici -->
         </section>
       </main>
-      
-      <footer>
-        <p>Copyright &copy;2023 All rights reserved | ITTS</p>
-      </footer>
-    </div>
+</div>
 </template>
   
   <script>

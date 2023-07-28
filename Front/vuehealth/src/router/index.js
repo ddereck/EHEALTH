@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/pages/Home.vue';
 import SignIn from './views/pages/SignIn.vue';
 import SignUp from './views/pages/SignUp.vue';
-import SuperAdmin from './components/SuperAdmin.vue';
+import SuperAdmin from './views/pages/SuperAdmin.vue';
 
 const routes = [
   {
