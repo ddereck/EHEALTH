@@ -717,7 +717,7 @@
   
 <script>
 export default {
-  name: 'Home',
+  name: 'HomePage',
   // Composants enfants
 }
 </script>

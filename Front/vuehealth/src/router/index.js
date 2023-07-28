@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from './views/pages/Home.vue';
-import SignIn from './views/pages/SignIn.vue';
-import SignUp from './views/pages/SignUp.vue';
-import SuperAdmin from './views/pages/SuperAdmin.vue';
+import HomePage from '../views/pages/HomePage.vue';
+import SignIn from '../views/pages/SignIn.vue';
+import SignUp from '../views/pages/SignUp.vue';
+import SuperAdmin from '../views/pages/SuperAdmin.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'HomePage',
+    component: HomePage
   },
   // Définissez les autres routes ici
   {
